@@ -8,8 +8,14 @@
 
 import Foundation
 
-protocol AddressConvertible {
+protocol AddressConvertible: Encodable {
     func makeAddressString() -> String
+}
+
+extension AddressConvertible {
+    func encode(to encoder: Encoder) throws {
+        try makeAddressString().encode(to: encoder)
+    }
 }
 
 extension AddressConvertible {

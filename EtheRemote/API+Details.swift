@@ -18,5 +18,12 @@ extension API {
         }
     }
     
-    
+    var params: [Any] {
+        switch self {
+        case .call:
+            return 
+        default:
+            fatalError("not implemented")
+        }
+    }
 }

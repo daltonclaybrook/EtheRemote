@@ -22,6 +22,8 @@
 		7555DEA5202414C000E70032 /* AddressConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555DEA4202414C000E70032 /* AddressConvertible.swift */; };
 		7555DEAF20242F3F00E70032 /* EtheRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7555DE8F20240CD900E70032 /* EtheRemote.framework */; };
 		7555DEB620242F5700E70032 /* AddressConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555DEB520242F5700E70032 /* AddressConvertibleTests.swift */; };
+		7555DEB82025878800E70032 /* BlockParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555DEB72025878800E70032 /* BlockParam.swift */; };
+		7555DEBA20258A9600E70032 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555DEB920258A9600E70032 /* Transaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		7555DEAA20242F3F00E70032 /* EtheRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtheRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555DEAE20242F3F00E70032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7555DEB520242F5700E70032 /* AddressConvertibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressConvertibleTests.swift; sourceTree = "<group>"; };
+		7555DEB72025878800E70032 /* BlockParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockParam.swift; sourceTree = "<group>"; };
+		7555DEB920258A9600E70032 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 				7555DEA020240F9800E70032 /* API.swift */,
 				7555DEA22024131700E70032 /* API+Details.swift */,
 				7555DEA4202414C000E70032 /* AddressConvertible.swift */,
+				7555DEB72025878800E70032 /* BlockParam.swift */,
+				7555DEB920258A9600E70032 /* Transaction.swift */,
 			);
 			path = EtheRemote;
 			sourceTree = "<group>";
@@ -314,9 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7555DEBA20258A9600E70032 /* Transaction.swift in Sources */,
 				7555DE9D20240D8400E70032 /* NodeClient.swift in Sources */,
 				7555DEA5202414C000E70032 /* AddressConvertible.swift in Sources */,
 				7555DEA120240F9800E70032 /* API.swift in Sources */,
+				7555DEB82025878800E70032 /* BlockParam.swift in Sources */,
 				7555DE9F20240ECB00E70032 /* SessionDelegate.swift in Sources */,
 				7555DEA32024131700E70032 /* API+Details.swift in Sources */,
 			);
