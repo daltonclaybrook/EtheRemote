@@ -20,7 +20,6 @@
 		7555DEA120240F9800E70032 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555DEA020240F9800E70032 /* API.swift */; };
 		7555DEA32024131700E70032 /* API+Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555DEA22024131700E70032 /* API+Details.swift */; };
 		7555DEA5202414C000E70032 /* AddressConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555DEA4202414C000E70032 /* AddressConvertible.swift */; };
-		7555DEAD20242F3F00E70032 /* EtheRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555DEAC20242F3F00E70032 /* EtheRemoteTests.swift */; };
 		7555DEAF20242F3F00E70032 /* EtheRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7555DE8F20240CD900E70032 /* EtheRemote.framework */; };
 		7555DEB620242F5700E70032 /* AddressConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555DEB520242F5700E70032 /* AddressConvertibleTests.swift */; };
 /* End PBXBuildFile section */
@@ -73,7 +72,6 @@
 		7555DEA22024131700E70032 /* API+Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Details.swift"; sourceTree = "<group>"; };
 		7555DEA4202414C000E70032 /* AddressConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressConvertible.swift; sourceTree = "<group>"; };
 		7555DEAA20242F3F00E70032 /* EtheRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtheRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7555DEAC20242F3F00E70032 /* EtheRemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtheRemoteTests.swift; sourceTree = "<group>"; };
 		7555DEAE20242F3F00E70032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7555DEB520242F5700E70032 /* AddressConvertibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressConvertibleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,7 +153,6 @@
 		7555DEAB20242F3F00E70032 /* EtheRemoteTests */ = {
 			isa = PBXGroup;
 			children = (
-				7555DEAC20242F3F00E70032 /* EtheRemoteTests.swift */,
 				7555DEB520242F5700E70032 /* AddressConvertibleTests.swift */,
 				7555DEAE20242F3F00E70032 /* Info.plist */,
 			);
@@ -330,7 +327,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7555DEB620242F5700E70032 /* AddressConvertibleTests.swift in Sources */,
-				7555DEAD20242F3F00E70032 /* EtheRemoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
